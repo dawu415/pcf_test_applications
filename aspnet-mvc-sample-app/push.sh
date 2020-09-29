@@ -1,2 +1,3 @@
 #!/bin/bash
-cf push $1 -p ./linux-compiled --random-route
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cf push $1 -p ${DIR}/linux-compiled --random-route
