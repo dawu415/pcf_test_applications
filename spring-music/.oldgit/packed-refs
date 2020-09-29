@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+f7fb481f83ded4f56441bc1888ee079598d64f55 refs/remotes/origin/java-cfenv
+60f801705abd2aeb0134a85f0aa3576ac661c8fb refs/remotes/origin/master
+a8f4e932987fe9f543e92c1e8db2f3e72c9fd8c3 refs/remotes/origin/newrelic
