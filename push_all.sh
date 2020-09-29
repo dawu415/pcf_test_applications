@@ -1,4 +1,4 @@
-
+#! /usr/bin/bash
 for i in "aspnet-mvc-sample-app" "golang-sample-app" "ruby-sample-app" "spring-music";
 do
    base64 /dev/urandom | head -c 26214400 > $i/data.file
