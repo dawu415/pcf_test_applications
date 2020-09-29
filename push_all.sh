@@ -5,5 +5,5 @@ do
    echo "    - Creating Random File.."
    base64 /dev/urandom | head -c 26214400 > $i/data.file
    echo "    - Starting CF Push"
-   (time ./$i/push.sh sample_$i) &> ${i}_push.log
+   (time ./$i/push.sh sample_${i}_${1}) &> ${i}_push.log
 done 
