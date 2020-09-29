@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 for i in "aspnet-mvc-sample-app" "golang-sample-app" "ruby-sample-app" "spring-music";
 do
    echo "Process $i..."
