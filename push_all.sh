@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in "aspnet-mvc-sample-app" "golang-sample-app" "ruby-sample-app" "spring-music";
+for i in "aspnet-mvc-sample-app" "hwc-dotnetframework-sample-app" "golang-sample-app" "ruby-sample-app" "spring-music";
 do
    echo "Process $i..."
    echo "    - Creating Random File.."
